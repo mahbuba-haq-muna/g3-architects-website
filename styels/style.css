@@ -64,7 +64,7 @@ nav> ul a{
 /* main style start */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 .team-container{
     display: flex;
@@ -104,8 +104,16 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav,
+    .team-container{
         flex-direction: column;
+    }
+    .team-img{
+        grid-template-columns: 1fr;
+    }
+    .team-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 /* Tablet medium device */
@@ -113,7 +121,7 @@ main{
     header{
         padding: 50px;
     }
-    nav{
+    nav, .team-container{
         flex-direction: column;
     }
     
