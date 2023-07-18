@@ -14,6 +14,14 @@
     border-radius: 8px;
     cursor: pointer;
 }
+.text-gray{
+    color: #727272;
+}
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 
 /* header start */
 header{
@@ -25,11 +33,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-}
+
 nav> ul{
     display: flex;
 }
@@ -96,6 +100,29 @@ main{
 }
 .team-content p{
     color: #727272;
+}
+
+/* facts styles */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.card .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.card .card-title{
+    font-weight: 600;
+    color: #727272;
+    font-size: 1.25rem;
 }
 
 /* responsive media query */
